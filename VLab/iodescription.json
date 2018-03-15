@@ -41,9 +41,9 @@
       "outputType": "individual",
       "valueType": "value",
       "description": "Output shapefile archive",
-      "name": "merge.zip",
+      "name": "merge.tar.gz",
       "valueSchema": "url",
-      "target": "Data/merge.zip"
+      "target": "Data/merge.tar.gz"
  }
   ]
 }

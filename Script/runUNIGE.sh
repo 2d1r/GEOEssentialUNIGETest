@@ -7,4 +7,4 @@ cd ../Data
 unzip wdpa.zip
 unzip kba.zip
 ogr2ogr merge.shp merge.vrt
-zip unigemerge merge.*
+tar -czf merge.tar.gz merge.*
