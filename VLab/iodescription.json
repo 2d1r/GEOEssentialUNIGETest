@@ -36,51 +36,14 @@
 
   ],
   "outputs": [
-    {
-      "id": "DataObject_0n95v5p",
-      "outputType": "individual",
-      "valueType": "value",
-      "description": "Output shapefile",
-      "name": "merge.shp",
-      "valueSchema": "url",
-      "target": "Data/merge.shp"
- },
-     {
-      "id": "DataObject_0n95v52",
-      "outputType": "individual",
-      "valueType": "value",
-      "description": "Output shapefile shx",
-      "name": "merge.shx",
-      "valueSchema": "url",
-      "target": "Data/merge.shx"
- },
-     {
-      "id": "DataObject_0n95v53",
-      "outputType": "individual",
-      "valueType": "value",
-      "description": "Output shapefile qpj",
-      "name": "merge.qpj",
-      "valueSchema": "url",
-      "target": "Data/merge.qpj"
- },
-     {
-      "id": "DataObject_0n95v54",
-      "outputType": "individual",
-      "valueType": "value",
-      "description": "Output shapefile prj",
-      "name": "merge.prj",
-      "valueSchema": "url",
-      "target": "Data/merge.prj"
- },
       {
       "id": "DataObject_0n95v55",
       "outputType": "individual",
       "valueType": "value",
-      "description": "Output shapefile dbf",
-      "name": "merge.dbf",
+      "description": "Output shapefile archive",
+      "name": "merge.zip",
       "valueSchema": "url",
-      "target": "Data/merge.dbf"
+      "target": "Data/merge.zip"
  }
-
   ]
 }
