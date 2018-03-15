@@ -1,0 +1,87 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3ff",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Shapefile of the protected areas in Swiss",
+      "name": "Swiss WPA",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/wdpa_ch.shp"
+ },
+     {
+      "id": "DataObject_0h3a3fg",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Shapefile of the byodiversity areas in Swiss",
+      "name": "Swiss KBA",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/kba_ch.shp"
+ },
+
+     {
+      "id": "DataObject_0h3a3fh",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Merge file",
+      "name": "Merge",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "Data/merge.vrt"
+ }
+
+  ],
+  "outputs": [
+    {
+      "id": "DataObject_0n95v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output shapefile",
+      "name": "merge.shp",
+      "valueSchema": "url",
+      "target": "Data/merge.shp"
+ },
+     {
+      "id": "DataObject_0n95v52",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output shapefile shx",
+      "name": "merge.shx",
+      "valueSchema": "url",
+      "target": "Data/merge.shx"
+ },
+     {
+      "id": "DataObject_0n95v53",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output shapefile qpj",
+      "name": "merge.qpj",
+      "valueSchema": "url",
+      "target": "Data/merge.qpj"
+ },
+     {
+      "id": "DataObject_0n95v54",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output shapefile prj",
+      "name": "merge.prj",
+      "valueSchema": "url",
+      "target": "Data/merge.prj"
+ },
+      {
+      "id": "DataObject_0n95v55",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Output shapefile dbf",
+      "name": "merge.dbf",
+      "valueSchema": "url",
+      "target": "Data/merge.dbf"
+ },
+
+  ]
+}
