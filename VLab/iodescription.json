@@ -22,7 +22,6 @@
       "valueSchema": "url",
       "target": "Data/kba_ch.shp"
  },
-
      {
       "id": "DataObject_0h3a3fh",
       "inputType": "individual",
@@ -81,7 +80,7 @@
       "name": "merge.dbf",
       "valueSchema": "url",
       "target": "Data/merge.dbf"
- },
+ }
 
   ]
 }
