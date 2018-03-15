@@ -4,4 +4,4 @@ echo "Hello VLab from UNIGE"
 
 #awk '{print NF}' ../GEOEssentialUNIGEData/unigeinput.txt
 
-ogr2ogr merge.shp ../GEOEssentialUNIGEData/merge.vrt
+ogr2ogr merge.shp ../Data/merge.vrt

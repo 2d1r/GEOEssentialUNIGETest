@@ -1,0 +1,10 @@
+<OGRVRTDataSource>
+    <OGRVRTUnionLayer name="unionLayer">
+        <OGRVRTLayer name="kba_ch">
+            <SrcDataSource>../Data/kba_ch.shp</SrcDataSource>
+        </OGRVRTLayer>
+        <OGRVRTLayer name="wdpa_ch">
+            <SrcDataSource>../Data/wdpa_ch.shp</SrcDataSource>
+        </OGRVRTLayer>
+    </OGRVRTUnionLayer>
+</OGRVRTDataSource>
