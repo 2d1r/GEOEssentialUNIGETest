@@ -9,7 +9,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "Data/wdpa_ch.shp"
+      "target": "Data/wdpa.zip"
  },
      {
       "id": "DataObject_0h3a3fg",
@@ -20,7 +20,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "Data/kba_ch.shp"
+      "target": "Data/kba.zip"
  },
      {
       "id": "DataObject_0h3a3fh",
